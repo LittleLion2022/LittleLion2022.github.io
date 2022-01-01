@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LittleLion 2022的个人博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://littlelion2022.github.io/</link>
     <description>Recent content on LittleLion 2022的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>@LittleLion2022</copyright>
-    <lastBuildDate>Sun, 14 Nov 2021 21:28:51 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Nov 2021 21:28:51 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中文版Kali系统修改用户文件夹为英语</title>
-      <link>http://localhost:1313/post/%E4%B8%AD%E6%96%87%E7%89%88kali%E7%B3%BB%E7%BB%9F%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%BA%E8%8B%B1%E8%AF%AD/</link>
+      <link>https://littlelion2022.github.io/post/%E4%B8%AD%E6%96%87%E7%89%88kali%E7%B3%BB%E7%BB%9F%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%BA%E8%8B%B1%E8%AF%AD/</link>
       <pubDate>Sun, 14 Nov 2021 21:28:51 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E4%B8%AD%E6%96%87%E7%89%88kali%E7%B3%BB%E7%BB%9F%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%BA%E8%8B%B1%E8%AF%AD/</guid>
+      <guid>https://littlelion2022.github.io/post/%E4%B8%AD%E6%96%87%E7%89%88kali%E7%B3%BB%E7%BB%9F%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%BA%E8%8B%B1%E8%AF%AD/</guid>
       <description>1.背景 由于Linux系统不便于中文输入，难以在命令行中切换到用户文件夹，于是决定将系统文件夹的名称为英文。 2.首先把文件夹的中文名称修改成</description>
     </item>
     
     <item>
       <title>向前兼容与向后兼容</title>
-      <link>http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</link>
+      <link>https://littlelion2022.github.io/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</link>
       <pubDate>Fri, 01 Oct 2021 17:09:55 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</guid>
+      <guid>https://littlelion2022.github.io/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</guid>
       <description>概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa</description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/post/javascript/</link>
+      <link>https://littlelion2022.github.io/post/javascript/</link>
       <pubDate>Sun, 26 Sep 2021 20:49:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/javascript/</guid>
+      <guid>https://littlelion2022.github.io/post/javascript/</guid>
       <description>1.JavaScript中数值的存储 javascript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小</description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>http://localhost:1313/post/html/</link>
+      <link>https://littlelion2022.github.io/post/html/</link>
       <pubDate>Wed, 22 Sep 2021 20:45:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/html/</guid>
+      <guid>https://littlelion2022.github.io/post/html/</guid>
       <description>HTML短语标签 标签 描述 &amp;lt;em&amp;gt; 呈现为被强调的文本。 &amp;lt;strong&amp;gt; 定义重要的文本。 &amp;lt;dfn&amp;gt; 定义一个定义项目。 &amp;lt;code&amp;gt; 定义计算机代码文本。 &amp;lt;samp&amp;gt; 定义样本文本。 &amp;lt;kbd&amp;gt; 定义键盘文本。它</description>
     </item>
     
     <item>
       <title>青海游记</title>
-      <link>http://localhost:1313/post/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</link>
+      <link>https://littlelion2022.github.io/post/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</link>
       <pubDate>Mon, 20 Sep 2021 10:07:06 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</guid>
+      <guid>https://littlelion2022.github.io/post/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</guid>
       <description>2021年7月底，我们前往青海格尔木，目的是游览久负盛名的“甘青大环线”。 所谓“甘青大环线”,网上的解释是： 甘青大环线位于甘肃、青海两省境内</description>
     </item>
     
     <item>
       <title>浣溪沙·寓意</title>
-      <link>http://localhost:1313/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%AF%93%E6%84%8F/</link>
+      <link>https://littlelion2022.github.io/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%AF%93%E6%84%8F/</link>
       <pubDate>Sun, 19 Sep 2021 23:29:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%AF%93%E6%84%8F/</guid>
+      <guid>https://littlelion2022.github.io/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%AF%93%E6%84%8F/</guid>
       <description>漠漠星河寂静时， 倚床悄掩旧心思， 个中滋味有风知。 最是苦衷伤酒后， 念君无赖赋新词。 故人应为此情痴。 2020.9.19晚上</description>
     </item>
     
     <item>
       <title>浣溪沙·初夏感怀</title>
-      <link>http://localhost:1313/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%88%9D%E5%A4%8F%E6%84%9F%E6%80%80/</link>
+      <link>https://littlelion2022.github.io/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%88%9D%E5%A4%8F%E6%84%9F%E6%80%80/</link>
       <pubDate>Sun, 19 Sep 2021 23:24:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%88%9D%E5%A4%8F%E6%84%9F%E6%80%80/</guid>
+      <guid>https://littlelion2022.github.io/post/%E6%B5%A3%E6%BA%AA%E6%B2%99%E5%88%9D%E5%A4%8F%E6%84%9F%E6%80%80/</guid>
       <description>寂寂夏初意怅然， 梦中旧恨自阑珊。 匆匆流景是乡关。 休笑凌云曾我梦， 夕阳西下抚栏杆。 故园老树阅悲欢。 2020.6.26下午</description>
     </item>
     
     <item>
       <title>己亥冬月自题十八小像</title>
-      <link>http://localhost:1313/post/%E5%B7%B1%E4%BA%A5%E5%86%AC%E6%9C%88%E8%87%AA%E9%A2%98%E5%8D%81%E5%85%AB%E5%B0%8F%E5%83%8F/</link>
+      <link>https://littlelion2022.github.io/post/%E5%B7%B1%E4%BA%A5%E5%86%AC%E6%9C%88%E8%87%AA%E9%A2%98%E5%8D%81%E5%85%AB%E5%B0%8F%E5%83%8F/</link>
       <pubDate>Sun, 19 Sep 2021 23:18:44 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%B7%B1%E4%BA%A5%E5%86%AC%E6%9C%88%E8%87%AA%E9%A2%98%E5%8D%81%E5%85%AB%E5%B0%8F%E5%83%8F/</guid>
+      <guid>https://littlelion2022.github.io/post/%E5%B7%B1%E4%BA%A5%E5%86%AC%E6%9C%88%E8%87%AA%E9%A2%98%E5%8D%81%E5%85%AB%E5%B0%8F%E5%83%8F/</guid>
       <description>羞道弱冠比终军， 犹记少时诳语存。 江安四载虽踽踽， 愿沥心血换真春。 2019.12.27上午</description>
     </item>
     
