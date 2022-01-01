@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>concept on LittleLion 2022的个人博客</title>
+    <link>http://localhost:1313/tags/concept/</link>
+    <description>Recent content in concept on LittleLion 2022的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>@LittleLion2022</copyright>
+    <lastBuildDate>Fri, 01 Oct 2021 17:09:55 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/concept/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>向前兼容与向后兼容</title>
+      <link>http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</link>
+      <pubDate>Fri, 01 Oct 2021 17:09:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/</guid>
+      <description>概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa</description>
+    </item>
+    
+  </channel>
+</rss>

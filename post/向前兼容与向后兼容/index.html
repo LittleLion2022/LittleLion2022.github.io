@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>向前兼容与向后兼容 - LittleLion 2022的个人博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="LittleLion 2022" /><meta name="description" content="概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.91.2 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="向前兼容与向后兼容" />
+<meta property="og:description" content="概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/%E5%90%91%E5%89%8D%E5%85%BC%E5%AE%B9%E4%B8%8E%E5%90%91%E5%90%8E%E5%85%BC%E5%AE%B9/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-01T17:09:55+08:00" />
+<meta property="article:modified_time" content="2021-10-01T17:09:55+08:00" />
+
+<meta itemprop="name" content="向前兼容与向后兼容">
+<meta itemprop="description" content="概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa"><meta itemprop="datePublished" content="2021-10-01T17:09:55+08:00" />
+<meta itemprop="dateModified" content="2021-10-01T17:09:55+08:00" />
+<meta itemprop="wordCount" content="685">
+<meta itemprop="keywords" content="concept," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="向前兼容与向后兼容"/>
+<meta name="twitter:description" content="概念 兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。 向前兼容（Forward Compa"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">LittleLion2022</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">LittleLion2022</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">向前兼容与向后兼容</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-10-01 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#概念">概念</a></li>
+            <li><a href="#举例">举例</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h3 id="概念">概念</h3>
+<p>兼容性（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。
+向前兼容（Forward Compatibility）：指老的版本的软／硬件可以使用新版本的软／硬件产生的数据。
+向上兼容（Upward Compatibility）：与向前兼容相同。
+向后兼容（Backward Compatibility）：指新的版本的软／硬件可以使用老版本的软／硬件产生的数据。
+向下兼容（Downward Compatibility）：与向后兼容相同。</p>
+<h3 id="举例">举例</h3>
+<p>有下面几个例子：</p>
+<p>Intel的x86指令集CPU是向后兼容的，因为新款CPU依然可以运行老版本的软件。
+Intel保证老版本CPU有的指令集新版本一定还保留着，这种只增加不删除的策略，保证了我们换CPU时不需要更换很多软件。</p>
+<p>Windows操作系统是向后兼容的，大部分针对Windows 7开发的软件依然可以很好的运行在Windows 10下。
+Windows通过保证系统API的稳定不变，只增加不删除的策略，保证了老系统上开发的软件可以很容易的在新系统上运行。</p>
+<p>CD光盘是向前兼容的，CD光盘既可以被老旧的CD光驱读取，也可以被新的DVD光驱读取。</p>
+<p>立体声FM广播是向前兼容，它既可以被单声道的老式收音机播放，但没有立体声效果；也可以被新式的立体声收音机播放，具有立体声效果。</p>
+<p>用于设计网页的HTML语言是向前兼容的，当浏览器遇到新版本的HTML语言时，可以简单的忽略不支持的标签，仍然可以正常显示。</p>
+<p>比特币区块链系统是向前兼容的，老版本的节点依然可以验证新版本产生的区块，这也是比特币区块链不会产生永久分叉的基础。</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">LittleLion 2022</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2021-10-01
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/concept/">concept</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/%E4%B8%AD%E6%96%87%E7%89%88kali%E7%B3%BB%E7%BB%9F%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%BA%E8%8B%B1%E8%AF%AD/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">中文版Kali系统修改用户文件夹为英语</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/javascript/">
+            <span class="next-text nav-default">JavaScript</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/LittleLion2022/" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>@LittleLion2022</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

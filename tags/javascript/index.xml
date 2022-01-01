@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on LittleLion 2022的个人博客</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in javascript on LittleLion 2022的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>@LittleLion2022</copyright>
+    <lastBuildDate>Sun, 26 Sep 2021 20:49:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/post/javascript/</link>
+      <pubDate>Sun, 26 Sep 2021 20:49:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/javascript/</guid>
+      <description>1.JavaScript中数值的存储 javascript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小</description>
+    </item>
+    
+  </channel>
+</rss>
