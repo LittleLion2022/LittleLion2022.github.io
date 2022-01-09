@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>@LittleLion2022</copyright>
-    <lastBuildDate>Tue, 04 Jan 2022 21:49:15 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 11:38:53 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://littlelion2022.github.io/tags/linux/</link>
+      <pubDate>Sun, 09 Jan 2022 11:38:53 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://littlelion2022.github.io/tags/windows/</link>
+      <pubDate>Sun, 09 Jan 2022 11:38:53 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>https://littlelion2022.github.io/tags/docker/</link>
