@@ -49,7 +49,7 @@
 <meta itemprop="name" content="操作系统设置备忘录">
 <meta itemprop="description" content="Windows Windows 7 网络 网络禁用与恢复 打开控制面板，进入&quot;网络与Internet&quot; 点击“打开网络和共享中心”。 点击“更改适配器设置”。"><meta itemprop="datePublished" content="2022-01-09T11:38:53+08:00" />
 <meta itemprop="dateModified" content="2022-01-09T11:38:53+08:00" />
-<meta itemprop="wordCount" content="111">
+<meta itemprop="wordCount" content="246">
 <meta itemprop="keywords" content="windows,linux," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="操作系统设置备忘录"/>
 <meta name="twitter:description" content="Windows Windows 7 网络 网络禁用与恢复 打开控制面板，进入&quot;网络与Internet&quot; 点击“打开网络和共享中心”。 点击“更改适配器设置”。"/>
@@ -132,7 +132,7 @@
         <div class="post-category">
             <a href="/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/"> 实用参考 </a>
             </div>
-          <span class="more-meta"> 约 111 字 </span>
+          <span class="more-meta"> 约 246 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -148,6 +148,7 @@
         <li><a href="#windows-7">Windows 7</a>
           <ul>
             <li><a href="#网络">网络</a></li>
+            <li><a href="#注册表">注册表</a></li>
           </ul>
         </li>
       </ul>
@@ -168,6 +169,31 @@
 <li>右键点击“本地连接”。</li>
 <li>在右键菜单中，点击“启用”，即可恢复网络。</li>
 <li>同理，可以禁用网络</li>
+</ul>
+<h3 id="注册表">注册表</h3>
+<h4 id="软件右键在注册表中的位置">软件右键在注册表中的位置</h4>
+<ul>
+<li>
+<p>鼠标右键桌面空白处，新建菜单中的项目在注册表中的位置
+<code>[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Explorer/Discardable/PostSetup/ShellNew]</code></p>
+</li>
+<li>
+<p>鼠标右键文件，弹出的菜单明细在注册表中的位置
+<code>[HKEY_CLASSES_ROOT/*/shellex/ContextMenuHandlers]</code></p>
+</li>
+<li>
+<p>鼠标右键文件夹，弹出的菜单明细在注册表中的位置
+<code>[HKEY_CLASSES_ROOT/Directory/shellex/ContextMenuHandlers]</code></p>
+</li>
+<li>
+<p>鼠标右键在IE浏览器里，弹出的菜单明细在注册表中的位置
+<code>[HKEY_CURRENT_USER/Software/Microsoft/Internet Explorer/MenuExt]</code></p>
+</li>
+<li>
+<p>某些软件所添加的鼠标右键可能在
+<code>[HKEY_CLASSES_ROOT/Folder/shell]</code>
+<code>[HKEY_CLASSES_ROOT/Folder/shellex/ContextMenuHandlers]</code></p>
+</li>
 </ul>
 
     </div>
