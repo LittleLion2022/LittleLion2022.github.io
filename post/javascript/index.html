@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>JavaScript - LittleLion 2022的个人博客</title>
+  <title>JavaScript - LittleLion2022的个人博客</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="LittleLion2022" /><meta name="description" content="1.JavaScript中数值的存储 JavaScript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="LittleLion2022" /><meta name="description" content="1.JavaScript中数值的存储 JavaScript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小" /><meta name="keywords" content="Hugo, theme, even, littlelion2022, blog" />
 
 
 
@@ -67,7 +67,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">LittleLion2022</a>
+    <a href="/" class="logo">littlelion2022</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -91,7 +91,7 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/" class="logo">LittleLion2022</a>
+  <a href="/" class="logo">littlelion2022</a>
 </div>
 
 <nav class="site-navbar">
@@ -141,7 +141,7 @@
             <li><a href="#2javascript中存储的范围">2.JavaScript中存储的范围</a></li>
             <li><a href="#3三个特殊数字">3.三个特殊数字</a></li>
             <li><a href="#4javascript中仅有一个值不等于它自身就是nan">4.javascript中仅有一个值不等于它自身，就是NaN</a></li>
-            <li><a href="#5javascript中0nan空字符串视为false其它视为true">5.javascript中0、NaN、空字符串&quot;&ldquo;视为false,其它视为true</a></li>
+            <li><a href="#5javascript中0nan空字符串视为false其它视为true">5.JavaScript中0、NaN、空字符串&quot;&ldquo;视为false,其它视为true</a></li>
             <li><a href="#6javascript的短路特性">6.JavaScript的短路特性：</a></li>
             <li><a href="#7即使函数声明位于调用函数的代码后面这段代码仍然可以正确执行">7.即使函数声明位于调用函数的代码后面，这段代码仍然可以正确执行</a></li>
             <li><a href="#8javascript对于传入参数的数量几乎不做任何限制">8.javascript对于传入参数的数量几乎不做任何限制</a></li>
@@ -170,11 +170,11 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">NaN</span> <span class="o">==</span> <span class="kc">NaN</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">NaN</span> <span class="o">==</span> <span class="kc">NaN</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>原因是NaN可能表示不同的非法计算结果</p>
-<h3 id="5javascript中0nan空字符串视为false其它视为true">5.javascript中0、NaN、空字符串&quot;&ldquo;视为false,其它视为true</h3>
+<h3 id="5javascript中0nan空字符串视为false其它视为true">5.JavaScript中0、NaN、空字符串&quot;&ldquo;视为false,其它视为true</h3>
 <p>（注：我认为还有null，经过查询确实如此。</p>
 <p>实际上undefined、null、false、0、NaN、&ldquo;&ldquo;或''（空字符串）都是false</p>
 <p>需要特别注意的是，空数组（[]）和空对象（{}）对应的布尔值，都是true。）</p>
@@ -192,7 +192,7 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;The future says:&#34;</span><span class="p">,</span><span class="nx">future</span><span class="p">());</span>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;The future says:&#34;</span><span class="p">,</span><span class="nx">future</span><span class="p">());</span>
 
 <span class="kd">function</span> <span class="nx">future</span><span class="p">(){</span>
     <span class="k">return</span> <span class="s2">&#34;We STILL have no flying cars.&#34;</span><span class="p">;</span>
@@ -221,7 +221,7 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="kd">function</span> <span class="nx">power</span><span class="p">(</span><span class="nx">base</span><span class="p">,</span><span class="nx">exponent</span><span class="p">){</span>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">power</span><span class="p">(</span><span class="nx">base</span><span class="p">,</span><span class="nx">exponent</span><span class="p">){</span>
     <span class="k">if</span><span class="p">(</span><span class="nx">exponent</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">)</span>
         <span class="nx">exponent</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
     <span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
@@ -250,7 +250,7 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
 <span class="kd">var</span> <span class="nx">f1</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
     <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
 <span class="p">}</span>
@@ -271,7 +271,7 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
 <span class="kd">var</span> <span class="nx">f2</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
     <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
 <span class="p">}</span>
