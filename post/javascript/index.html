@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.92.2 with theme even" />
+<meta name="generator" content="Hugo 0.96.0 with theme even" />
 
 
 <link rel="canonical" href="https://littlelion2022.github.io/post/javascript/" />
@@ -49,7 +49,7 @@
 <meta itemprop="name" content="JavaScript">
 <meta itemprop="description" content="1.JavaScript中数值的存储 JavaScript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小"><meta itemprop="datePublished" content="2021-09-26T20:49:05+08:00" />
 <meta itemprop="dateModified" content="2021-09-26T20:49:05+08:00" />
-<meta itemprop="wordCount" content="911">
+<meta itemprop="wordCount" content="923">
 <meta itemprop="keywords" content="javascript," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="JavaScript"/>
 <meta name="twitter:description" content="1.JavaScript中数值的存储 JavaScript使用固定长度为64位的位序列来存储数字值 2.JavaScript中存储的范围 考虑到小"/>
@@ -122,7 +122,7 @@
         <div class="post-category">
             <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"> 编程语言 </a>
             </div>
-          <span class="more-meta"> 约 911 字 </span>
+          <span class="more-meta"> 约 923 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
@@ -170,13 +170,13 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">NaN</span> <span class="o">==</span> <span class="kc">NaN</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">NaN</span> <span class="o">==</span> <span class="kc">NaN</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>原因是NaN可能表示不同的非法计算结果</p>
 <h3 id="5javascript中0nan空字符串视为false其它视为true">5.JavaScript中0、NaN、空字符串&quot;&ldquo;视为false,其它视为true</h3>
 <p>（注：我认为还有null，经过查询确实如此。</p>
-<p>实际上undefined、null、false、0、NaN、&ldquo;&ldquo;或''（空字符串）都是false</p>
+<p>实际上undefined、null、false、0、NaN、&ldquo;&ldquo;或&rsquo;&rsquo;（空字符串）都是false</p>
 <p>需要特别注意的是，空数组（[]）和空对象（{}）对应的布尔值，都是true。）</p>
 <h3 id="6javascript的短路特性">6.JavaScript的短路特性：</h3>
 <p>当左边值可以被转换为true时，||运算符将直接返回左边的值</p>
@@ -192,12 +192,12 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;The future says:&#34;</span><span class="p">,</span><span class="nx">future</span><span class="p">());</span>
-
-<span class="kd">function</span> <span class="nx">future</span><span class="p">(){</span>
-    <span class="k">return</span> <span class="s2">&#34;We STILL have no flying cars.&#34;</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;The future says:&#34;</span><span class="p">,</span><span class="nx">future</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">future</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="s2">&#34;We STILL have no flying cars.&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>所以我们可以随意安排代码的编写顺序。</p>
 <p>但在最新的标准中，并不适用于条件或循环语句块中的函数声明。</p>
@@ -221,21 +221,21 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">power</span><span class="p">(</span><span class="nx">base</span><span class="p">,</span><span class="nx">exponent</span><span class="p">){</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">exponent</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">)</span>
-        <span class="nx">exponent</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span><span class="nx">count</span> <span class="o">&lt;</span> <span class="nx">exponent</span><span class="p">;</span><span class="nx">count</span><span class="o">++</span><span class="p">)</span>
-        <span class="nx">result</span> <span class="o">*=</span> <span class="nx">base</span><span class="p">;</span>
-    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">power</span><span class="p">(</span><span class="mi">4</span><span class="p">));</span>
-<span class="c1">//16
-</span><span class="c1"></span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">((</span><span class="nx">pow</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">)));</span>
-<span class="c1">//64
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">power</span><span class="p">(</span><span class="nx">base</span><span class="p">,</span><span class="nx">exponent</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="nx">exponent</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">exponent</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span><span class="nx">count</span> <span class="o">&lt;</span> <span class="nx">exponent</span><span class="p">;</span><span class="nx">count</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">result</span> <span class="o">*=</span> <span class="nx">base</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">power</span><span class="p">(</span><span class="mi">4</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//16
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">((</span><span class="nx">pow</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">)));</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//64
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="9函数中变量的作用域">9.函数中变量的作用域</h3>
 <p>第一个函数f1没有将x声明为局部变量，其函数内部引用的x实际上是顶部定义的全局变量x</p>
@@ -250,14 +250,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
-<span class="kd">var</span> <span class="nx">f1</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
-    <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
-<span class="p">}</span>
-<span class="nx">f1</span><span class="p">()</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
-<span class="c1">//输出结果:&#39;in&#39;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">f1</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nx">f1</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//输出结果:&#39;in&#39;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>第二个函数f2声明了一个局部变量，赋值只会修改局部变量</p>
 <div class="highlight"><div class="chroma">
@@ -271,14 +271,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
-<span class="kd">var</span> <span class="nx">f2</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
-    <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
-<span class="p">}</span>
-<span class="nx">f2</span><span class="p">()</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
-<span class="c1">//输出结果:&#39;out&#39;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;out&#34;</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">f2</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;in&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nx">f2</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//输出结果:&#39;out&#39;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
     </div>
@@ -363,7 +363,7 @@
 
 
 
-<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+<script type="text/javascript" src="/js/main.min.64437849d125a2d603b3e71d6de5225d641a32d17168a58106e0b61852079683.js"></script>
   <script type="text/javascript">
     window.MathJax = {
       tex: {
