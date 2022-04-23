@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>LittleLion2022</copyright>
-    <lastBuildDate>Sun, 09 Jan 2022 11:38:53 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 21:06:10 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android入门</title>
+      <link>https://littlelion2022.github.io/post/android%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sat, 23 Apr 2022 21:06:10 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/post/android%E5%85%A5%E9%97%A8/</guid>
+      <description>Android日志记录 日志工具类:Log (android.util.Log) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // verbose级别 Log.v() // debug级别 Log.d() // info级别 Log.i() // warnin</description>
+    </item>
+    
     <item>
       <title>操作系统设置备忘录</title>
       <link>https://littlelion2022.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE%E5%A4%87%E5%BF%98%E5%BD%95/</link>
@@ -18,12 +27,12 @@
     </item>
     
     <item>
-      <title>Docker初体验</title>
+      <title>docker初体验</title>
       <link>https://littlelion2022.github.io/post/docker%E5%88%9D%E4%BD%93%E9%AA%8C/</link>
       <pubDate>Tue, 04 Jan 2022 21:49:15 +0800</pubDate>
       
       <guid>https://littlelion2022.github.io/post/docker%E5%88%9D%E4%BD%93%E9%AA%8C/</guid>
-      <description>安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y docker.io 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本</description>
+      <description>安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y dockerio 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本</description>
     </item>
     
     <item>

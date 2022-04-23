@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Docker初体验 - LittleLion2022的个人博客</title>
+  <title>docker初体验 - LittleLion2022的个人博客</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="LittleLion2022" /><meta name="description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y docker.io 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本" /><meta name="keywords" content="Hugo, theme, even, littlelion2022, blog" />
+<meta name="author" content="LittleLion2022" /><meta name="description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y dockerio 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本" /><meta name="keywords" content="Hugo, theme, even, littlelion2022, blog" />
 
 
 
@@ -36,23 +36,23 @@
 
 
 <link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
-<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Docker初体验" />
-<meta property="og:description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y docker.io 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本" />
+
+<meta property="og:title" content="docker初体验" />
+<meta property="og:description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y dockerio 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://littlelion2022.github.io/post/docker%E5%88%9D%E4%BD%93%E9%AA%8C/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-01-04T21:49:15+08:00" />
 <meta property="article:modified_time" content="2022-01-04T21:49:15+08:00" />
 
-<meta itemprop="name" content="Docker初体验">
-<meta itemprop="description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y docker.io 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本"><meta itemprop="datePublished" content="2022-01-04T21:49:15+08:00" />
+<meta itemprop="name" content="docker初体验">
+<meta itemprop="description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y dockerio 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本"><meta itemprop="datePublished" content="2022-01-04T21:49:15+08:00" />
 <meta itemprop="dateModified" content="2022-01-04T21:49:15+08:00" />
 <meta itemprop="wordCount" content="349">
 <meta itemprop="keywords" content="docker,linux," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker初体验"/>
-<meta name="twitter:description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y docker.io 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本"/>
+<meta name="twitter:title" content="docker初体验"/>
+<meta name="twitter:description" content="安装Docker(Ubuntu 2021 64位) 执行命令： 1 sudo apt-get install -y dockerio 启动Docker 1 sudo systemctl start docker 输入docker version查看Docker的版本"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -115,7 +115,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Docker初体验</h1>
+      <h1 class="post-title">docker初体验</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2022-01-04 </span>
@@ -157,7 +157,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install -y docker.io
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install -y dockerio
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/img/docker%E5%88%9D%E4%BD%93%E9%AA%8C/image-20220104220523029.png" alt="image-20220104220523029"></p>
@@ -202,8 +202,8 @@
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo service docker restart
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>（第一次实际操作时我不小心敲成restart docker了）</p>
-<p>切换当前会话到docker组：</p>
+</div><p>（第一次实际操作时我不小心敲成restart docker了）
+切换当前会话到docker组：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -213,14 +213,14 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>再次输入<code>docker version</code>，正常显示完整信息：</p>
-<p><img src="/img/docker%E5%88%9D%E4%BD%93%E9%AA%8C/image-20220104222540518.png" alt=""></p>
+<p><img src="/img/docker%E5%88%9D%E4%BD%93%E9%AA%8C/image-20220104222540518png" alt=""></p>
 <h3 id="docker-国内镜像加速">Docker 国内镜像加速</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vim /etc/docker/daemon.json
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vim /etc/docker/daemonjson
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>添加：</p>
@@ -235,7 +235,7 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;registry-mirrors&#34;</span><span class="p">:[</span>
-</span></span><span class="line"><span class="cl">        <span class="s2">&#34;https://vii0v3oj.mirror.aliyuncs.com&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;https://vii0v3ojmirroraliyuncscom&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
@@ -329,7 +329,7 @@
   </div>
   <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
-  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+  
 
 
 

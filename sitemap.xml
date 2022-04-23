@@ -2,35 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://littlelion2022.github.io/categories/</loc>
-    <lastmod>2022-01-09T11:38:53+08:00</lastmod>
+    <loc>https://littlelion2022.github.io/categories/android/</loc>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://littlelion2022.github.io/tags/linux/</loc>
-    <lastmod>2022-01-09T11:38:53+08:00</lastmod>
+    <loc>https://littlelion2022.github.io/post/android%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littlelion2022.github.io/categories/</loc>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://littlelion2022.github.io/</loc>
-    <lastmod>2022-01-09T11:38:53+08:00</lastmod>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://littlelion2022.github.io/post/</loc>
-    <lastmod>2022-01-09T11:38:53+08:00</lastmod>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://littlelion2022.github.io/tags/</loc>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littlelion2022.github.io/tags/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</loc>
+    <lastmod>2022-04-23T21:06:10+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://littlelion2022.github.io/tags/linux/</loc>
     <lastmod>2022-01-09T11:38:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

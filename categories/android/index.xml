@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on LittleLion2022的个人博客</title>
+    <link>https://littlelion2022.github.io/categories/android/</link>
+    <description>Recent content in Android on LittleLion2022的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>LittleLion2022</copyright>
+    <lastBuildDate>Sat, 23 Apr 2022 21:06:10 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android入门</title>
+      <link>https://littlelion2022.github.io/post/android%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sat, 23 Apr 2022 21:06:10 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/post/android%E5%85%A5%E9%97%A8/</guid>
+      <description>Android日志记录 日志工具类:Log (android.util.Log) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // verbose级别 Log.v() // debug级别 Log.d() // info级别 Log.i() // warnin</description>
+    </item>
+    
+  </channel>
+</rss>
