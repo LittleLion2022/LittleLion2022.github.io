@@ -49,8 +49,8 @@
 <meta itemprop="name" content="Android入门">
 <meta itemprop="description" content="Android日志记录 日志工具类:Log (android.util.Log) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // verbose级别 Log.v() // debug级别 Log.d() // info级别 Log.i() // warnin"><meta itemprop="datePublished" content="2022-04-23T21:06:10+08:00" />
 <meta itemprop="dateModified" content="2022-04-23T21:06:10+08:00" />
-<meta itemprop="wordCount" content="205">
-<meta itemprop="keywords" content="实用参考," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="435">
+<meta itemprop="keywords" content="Android," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Android入门"/>
 <meta name="twitter:description" content="Android日志记录 日志工具类:Log (android.util.Log) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // verbose级别 Log.v() // debug级别 Log.d() // info级别 Log.i() // warnin"/>
 
@@ -120,9 +120,9 @@
       <div class="post-meta">
         <span class="post-time"> 2022-04-23 </span>
         <div class="post-category">
-            <a href="/categories/android/"> Android </a>
+            <a href="/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/"> 实用参考 </a>
             </div>
-          <span class="more-meta"> 约 205 字 </span>
+          <span class="more-meta"> 约 435 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -138,6 +138,7 @@
         <li>
           <ul>
             <li><a href="#android日志记录">Android日志记录</a></li>
+            <li><a href="#创建空白项目">创建空白项目</a></li>
           </ul>
         </li>
       </ul>
@@ -220,6 +221,78 @@
 <img src="/img/Android%E5%85%A5%E9%97%A8/logd.png" alt="logd.png"></p>
 <p>较低级别(Verbose)日志包含较高级别(debug)日志:
 <img src="/img/Android%E5%85%A5%E9%97%A8/logv.png" alt="logv.png"></p>
+<h3 id="创建空白项目">创建空白项目</h3>
+<p>在Android Studio中新建一个没有活动(Activity)的项目,不勾选生成Layout File和Launcher Activity选项。
+在项目的路径<code>app/src/main/res</code>中,新建layout文件夹,在其中创建一个layout文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-XML" data-lang="XML"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;androidx.constraintlayout.widget.ConstraintLayout</span> <span class="na">xmlns:android=</span><span class="s">&#34;http://schemas.android.com/apk/res/android&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">android:layout_width=</span><span class="s">&#34;match_parent&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">android:layout_height=</span><span class="s">&#34;match_parent&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Button</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:id=</span><span class="s">&#34;@+id/button_1&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:layout_height=</span><span class="s">&#34;wrap_content&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:layout_width=</span><span class="s">&#34;match_parent&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:text=</span><span class="s">&#34;Click Me&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>AndroidManifest.xml文件修改为:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-XML" data-lang="XML"><span class="line"><span class="cl">   <span class="nt">&lt;application</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:allowBackup=</span><span class="s">&#34;true&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:icon=</span><span class="s">&#34;@mipmap/ic_launcher&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:label=</span><span class="s">&#34;@string/app_name&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:roundIcon=</span><span class="s">&#34;@mipmap/ic_launcher_round&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:supportsRtl=</span><span class="s">&#34;true&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">android:theme=</span><span class="s">&#34;@style/Theme.LittleLion1&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;activity</span>
+</span></span><span class="line"><span class="cl">            <span class="na">android:name=</span><span class="s">&#34;.MainActivity&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="na">android:exported=</span><span class="s">&#34;true&#34;</span> <span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;intent-filter&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&lt;action</span> <span class="na">android:name=</span><span class="s">&#34;android.intent.action.MAIN&#34;</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">                <span class="nt">&lt;category</span> <span class="na">android:name=</span><span class="s">&#34;android.intent.category.LAUNCHER&#34;</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;/intent-filter&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/activity&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/application&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>编译完成后在模拟器中显示如图
+<img src="/img/Android%E5%85%A5%E9%97%A8/firstappcreatedbyhand.png" alt=""></p>
 
     </div>
 
@@ -240,7 +313,7 @@
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/">实用参考</a>
+          <a href="/tags/android/">Android</a>
           </div>
       <nav class="post-nav">
         

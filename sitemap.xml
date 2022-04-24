@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://littlelion2022.github.io/categories/android/</loc>
+    <loc>https://littlelion2022.github.io/tags/android/</loc>
     <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,7 +44,7 @@
   </url>
   
   <url>
-    <loc>https://littlelion2022.github.io/tags/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</loc>
+    <loc>https://littlelion2022.github.io/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</loc>
     <lastmod>2022-04-23T21:06:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -59,13 +59,6 @@
   
   <url>
     <loc>https://littlelion2022.github.io/tags/windows/</loc>
-    <lastmod>2022-01-09T11:38:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://littlelion2022.github.io/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</loc>
     <lastmod>2022-01-09T11:38:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
