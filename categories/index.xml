@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on LittleLion2022的个人博客</title>
-    <link>https://littlelion2022.github.io/categories/</link>
-    <description>Recent content in Categories on LittleLion2022的个人博客</description>
+    <title>Categories on LittleLion2022</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on LittleLion2022</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>LittleLion2022</copyright>
-    <lastBuildDate>Sat, 23 Apr 2022 21:06:10 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 21:06:10 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实用参考</title>
-      <link>https://littlelion2022.github.io/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</link>
+      <link>https://example.com/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</link>
       <pubDate>Sat, 23 Apr 2022 21:06:10 +0800</pubDate>
       
-      <guid>https://littlelion2022.github.io/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</guid>
+      <guid>https://example.com/categories/%E5%AE%9E%E7%94%A8%E5%8F%82%E8%80%83/</guid>
       <description></description>
     </item>
     
     <item>
       <title>编程语言</title>
-      <link>https://littlelion2022.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
+      <link>https://example.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
       <pubDate>Sun, 26 Sep 2021 20:49:05 +0800</pubDate>
       
-      <guid>https://littlelion2022.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</guid>
+      <guid>https://example.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</guid>
       <description></description>
     </item>
     
     <item>
       <title>个人文集</title>
-      <link>https://littlelion2022.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%96%87%E9%9B%86/</link>
+      <link>https://example.com/categories/%E4%B8%AA%E4%BA%BA%E6%96%87%E9%9B%86/</link>
       <pubDate>Mon, 20 Sep 2021 10:07:06 +0800</pubDate>
       
-      <guid>https://littlelion2022.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%96%87%E9%9B%86/</guid>
+      <guid>https://example.com/categories/%E4%B8%AA%E4%BA%BA%E6%96%87%E9%9B%86/</guid>
       <description></description>
     </item>
     
     <item>
       <title>个人诗集</title>
-      <link>https://littlelion2022.github.io/categories/%E4%B8%AA%E4%BA%BA%E8%AF%97%E9%9B%86/</link>
+      <link>https://example.com/categories/%E4%B8%AA%E4%BA%BA%E8%AF%97%E9%9B%86/</link>
       <pubDate>Sun, 19 Sep 2021 23:29:23 +0800</pubDate>
       
-      <guid>https://littlelion2022.github.io/categories/%E4%B8%AA%E4%BA%BA%E8%AF%97%E9%9B%86/</guid>
+      <guid>https://example.com/categories/%E4%B8%AA%E4%BA%BA%E8%AF%97%E9%9B%86/</guid>
       <description></description>
     </item>
     

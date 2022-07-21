@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sites on hugonews example site</title>
+    <link>https://example.com/sites/</link>
+    <description>Recent content in Sites on hugonews example site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Nov 2019 21:51:11 +0200</lastBuildDate><atom:link href="https://example.com/sites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>twitter.com</title>
+      <link>https://example.com/sites/twitter.com/</link>
+      <pubDate>Mon, 04 Nov 2019 21:51:11 +0200</pubDate>
+      
+      <guid>https://example.com/sites/twitter.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github.com</title>
+      <link>https://example.com/sites/github.com/</link>
+      <pubDate>Mon, 04 Nov 2019 21:51:07 +0200</pubDate>
+      
+      <guid>https://example.com/sites/github.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gohugo.io</title>
+      <link>https://example.com/sites/gohugo.io/</link>
+      <pubDate>Mon, 04 Nov 2019 21:51:03 +0200</pubDate>
+      
+      <guid>https://example.com/sites/gohugo.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse.gohugo.io</title>
+      <link>https://example.com/sites/discourse.gohugo.io/</link>
+      <pubDate>Mon, 04 Nov 2019 21:50:41 +0200</pubDate>
+      
+      <guid>https://example.com/sites/discourse.gohugo.io/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

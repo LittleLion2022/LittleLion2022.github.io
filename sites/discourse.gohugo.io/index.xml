@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>discourse.gohugo.io on hugonews example site</title>
+    <link>https://example.com/sites/discourse.gohugo.io/</link>
+    <description>Recent content in discourse.gohugo.io on hugonews example site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Nov 2019 21:50:41 +0200</lastBuildDate><atom:link href="https://example.com/sites/discourse.gohugo.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Discourse Forum</title>
+      <link>https://example.com/items/gohugo-discourse/</link>
+      <pubDate>Mon, 04 Nov 2019 21:50:41 +0200</pubDate>
+      
+      <guid>https://example.com/items/gohugo-discourse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
