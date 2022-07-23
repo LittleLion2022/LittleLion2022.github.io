@@ -1,101 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on LittleLion2022</title>
-    <link>https://littlelion2022.github.io/tags/</link>
-    <description>Recent content in Tags on LittleLion2022</description>
+    <title>Tags on ZDoc</title>
+    <link>http://littlelion2022.github.io/tags/</link>
+    <description>Recent content in Tags on ZDoc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Apr 2022 21:06:10 +0800</lastBuildDate><atom:link href="https://littlelion2022.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Android</title>
-      <link>https://littlelion2022.github.io/tags/android/</link>
-      <pubDate>Sat, 23 Apr 2022 21:06:10 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/android/</guid>
-      <description></description>
-    </item>
+    <language>zh</language>
+    <copyright>&amp;copy;{year} 保留所有权利</copyright>
+    <lastBuildDate>Sat, 23 Jul 2022 18:53:55 +0800</lastBuildDate>
     
-    <item>
-      <title>linux</title>
-      <link>https://littlelion2022.github.io/tags/linux/</link>
-      <pubDate>Sun, 09 Jan 2022 11:38:53 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
+        <atom:link href="http://littlelion2022.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>windows</title>
-      <link>https://littlelion2022.github.io/tags/windows/</link>
-      <pubDate>Sun, 09 Jan 2022 11:38:53 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
     
-    <item>
-      <title>docker</title>
-      <link>https://littlelion2022.github.io/tags/docker/</link>
-      <pubDate>Tue, 04 Jan 2022 21:49:15 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
     
-    <item>
-      <title>kali</title>
-      <link>https://littlelion2022.github.io/tags/kali/</link>
-      <pubDate>Sun, 14 Nov 2021 21:28:51 +0800</pubDate>
       
-      <guid>https://littlelion2022.github.io/tags/kali/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>concept</title>
-      <link>https://littlelion2022.github.io/tags/concept/</link>
-      <pubDate>Fri, 01 Oct 2021 17:09:55 +0800</pubDate>
+      <item>
+        <title>游记</title>
+        <link>http://littlelion2022.github.io/tags/%E6%B8%B8%E8%AE%B0/</link>
+        <pubDate>Sat, 23 Jul 2022 18:53:55 +0800</pubDate>
+        
+        <guid>http://littlelion2022.github.io/tags/%E6%B8%B8%E8%AE%B0/</guid>
+        <description></description>
+      </item>
       
-      <guid>https://littlelion2022.github.io/tags/concept/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://littlelion2022.github.io/tags/javascript/</link>
-      <pubDate>Sun, 26 Sep 2021 20:49:05 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://littlelion2022.github.io/tags/html/</link>
-      <pubDate>Wed, 22 Sep 2021 20:45:34 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://littlelion2022.github.io/tags/travel/</link>
-      <pubDate>Mon, 20 Sep 2021 10:07:06 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>poems</title>
-      <link>https://littlelion2022.github.io/tags/poems/</link>
-      <pubDate>Sun, 19 Sep 2021 23:29:23 +0800</pubDate>
-      
-      <guid>https://littlelion2022.github.io/tags/poems/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
