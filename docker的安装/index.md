@@ -26,7 +26,6 @@ sudo groupadd docker
 sudo gpasswd -a ${USER} docker
 ```
 
-### 
 ``` bash
 sudo service docker restart
 ```
