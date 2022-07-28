@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "D:/LittleLion/Documents/Github Pages 个人博客",
+	"sourceRoot": "D:/LittleLion/Documents/个人博客 Github Pages",
 	"sources": [
 		"themes/loveit/assets/css/style.scss",
 		"themes/loveit/assets/lib/normalize/normalize.css",
