@@ -11,7 +11,7 @@
     <pubDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</pubDate>
     <author>LittleLion</author>
     <guid>https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
-    <description><![CDATA[平台：Kali 2022.2 通过apt下载docker并启动docker服务 1 sudo apt install -y docker.io 1 sudo systemctl start docker 输入docker version查看docker的版本：]]></description>
+    <description><![CDATA[操作系统版本:Kali 2022.2 通过apt下载docker并启动docker服务 1 sudo apt install -y docker.io 1 sudo systemctl start docker 输入docker version查看docker]]></description>
 </item>
 <item>
     <title>青海游记</title>

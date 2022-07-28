@@ -1,7 +1,7 @@
 # Docker的安装
 
 
-> 平台：Kali 2022.2
+> 操作系统版本:Kali 2022.2
 
 ### 通过apt下载docker并启动docker服务
 ``` bash

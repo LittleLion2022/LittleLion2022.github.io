@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>docker - 标签 - 主页</title>
-        <link>https://example.com/tags/docker/</link>
-        <description>docker - 标签 - 主页</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/docker/" rel="self" type="application/rss+xml" /><item>
+        <title>kali - 标签 - 主页</title>
+        <link>https://example.com/tags/kali/</link>
+        <description>kali - 标签 - 主页</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/kali/" rel="self" type="application/rss+xml" /><item>
     <title>Docker的安装</title>
     <link>https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/</link>
     <pubDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</pubDate>
