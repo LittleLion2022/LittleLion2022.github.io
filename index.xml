@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>LittleLion2022的个人空间</title>
-        <link>https://example.com/</link>
+        <link>https://littlelion2022.github.io/</link>
         <description>Hugo theme - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</lastBuildDate>
-            <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://littlelion2022.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Docker的安装</title>
-    <link>https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/</link>
+    <link>https://littlelion2022.github.io/docker%E7%9A%84%E5%AE%89%E8%A3%85/</link>
     <pubDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</pubDate>
     <author>LittleLion</author>
-    <guid>https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
+    <guid>https://littlelion2022.github.io/docker%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
     <description><![CDATA[操作系统版本:Kali 2022.2 通过apt下载docker并启动docker服务 1 sudo apt install -y docker.io 1 sudo systemctl start docker 输入docker version查看docker]]></description>
 </item>
 <item>
     <title>青海游记</title>
-    <link>https://example.com/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</link>
+    <link>https://littlelion2022.github.io/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</link>
     <pubDate>Sat, 23 Jul 2022 18:53:55 &#43;0800</pubDate>
     <author>LittleLion</author>
-    <guid>https://example.com/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</guid>
+    <guid>https://littlelion2022.github.io/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</guid>
     <description><![CDATA[2021年7月底，我们前往青海格尔木，目的是游览久负盛名的“甘青大环线”。 所谓“甘青大环线”,网上的解释是： 甘青大环线位于甘肃、青海两省境内]]></description>
 </item>
 </channel>
