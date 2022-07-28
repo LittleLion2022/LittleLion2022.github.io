@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有Docker的安装 - loveit</title>
+        <title>所有Docker的安装 - 主页</title>
         <link>https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/</link>
-        <description>所有Docker的安装 | loveit</description>
+        <description>所有Docker的安装 | 主页</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 Jul 2022 18:11:45 &#43;0800</lastBuildDate><atom:link href="https://example.com/docker%E7%9A%84%E5%AE%89%E8%A3%85/" rel="self" type="application/rss+xml" /></channel>
 </rss>
