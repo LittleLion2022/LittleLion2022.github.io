@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text on Pure theme for Hugo</title>
+    <link>https://littlelion2022.github.io/tags/text/</link>
+    <description>Recent content in text on Pure theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://littlelion2022.github.io/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker的安装</title>
+      <link>https://littlelion2022.github.io/2022/07/docker%E7%9A%84%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Mon, 25 Jul 2022 18:11:45 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/2022/07/docker%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
+      <description>操作系统版本:Kali 2022.2 通过apt下载docker并启动docker服务 sudo apt install -y docker.io sudo systemctl start docker 输入docker version查看docker的版</description>
+    </item>
+    
+    <item>
+      <title>青海游记</title>
+      <link>https://littlelion2022.github.io/2022/07/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</link>
+      <pubDate>Sat, 23 Jul 2022 18:53:55 +0800</pubDate>
+      
+      <guid>https://littlelion2022.github.io/2022/07/%E9%9D%92%E6%B5%B7%E6%B8%B8%E8%AE%B0/</guid>
+      <description>2021年7月底，我们前往青海格尔木，目的是游览久负盛名的“甘青大环线”。 所谓“甘青大环线”,网上的解释是： 甘青大环线位于甘肃、青海两省境内</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://littlelion2022.github.io/2019/03/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlelion2022.github.io/2019/03/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://littlelion2022.github.io/2019/03/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlelion2022.github.io/2019/03/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://littlelion2022.github.io/2019/03/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlelion2022.github.io/2019/03/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://littlelion2022.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlelion2022.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/russross/blackfriday https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
