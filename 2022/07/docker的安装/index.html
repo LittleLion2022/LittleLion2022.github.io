@@ -61,11 +61,11 @@
     <div class="slimContent">
       <div class="navbar-header">
         <div class="profile-block text-center">
-          <a id="avatar" href="https://github.com/littlelion2022" target="_blank">
+          <a id="avatar" href="https://littlelion2022.github.io" target="_blank">
             <img class="img-circle img-rotate" src="https://littlelion2022.github.io/avatar.png" width="200" height="200">
           </a>
           <h2 id="name" class="hidden-xs hidden-sm">LittleLion2022</h2>
-          <h3 id="title" class="hidden-xs hidden-sm hidden-md">author title</h3>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">天静伤鸿犹戢翼，月明惊鹊未安枝</h3>
           <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Chengdu, China</small>
         </div><div class="search" id="search-form-wrap">
     <form class="search-form sidebar-form">
@@ -140,16 +140,6 @@
   <div class="slimContent">
     
       <div class="widget">
-    <h3 class="widget-title">公告</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content"><p>enjoy~</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-      <div class="widget">
     <h3 class="widget-title"> 标签</h3>
     <div id="tag-cloud-list" class="widget-body">
             
@@ -181,7 +171,7 @@
 <script>
 document.onreadystatechange = () => {
   if (document.readyState === 'complete') {
-    tagCloud('#tag-cloud-list a',  8 ,  20 );
+    tagCloud('#tag-cloud-list a',  1 ,  1000 );
   }
 };
 
@@ -326,11 +316,9 @@ function tagCloud(where, min, max) {
 <p>操作系统版本:Kali 2022.2</p>
 </blockquote>
 <h3 id="通过apt下载docker并启动docker服务">通过apt下载docker并启动docker服务</h3>
-<pre><code class="language-bash">sudo apt install -y docker.io
-</code></pre>
-<pre><code class="language-bash">sudo systemctl start docker
-</code></pre>
-<p>输入docker version查看docker的版本：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install -y docker.io
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start docker
+</span></span></code></pre></div><p>输入docker version查看docker的版本：</p>
 <p><img src="/images/Docker%E7%9A%84%E5%AE%89%E8%A3%85/%E7%89%88%E6%9C%AC.jpg" alt="版本"></p>
 <blockquote>
 <p>注意到这里只显示了Client的信息，下面有一个报错: persission denied
@@ -338,65 +326,31 @@ function tagCloud(where, min, max) {
 解决办法是把当前用户加入到docker组里面去。</p>
 </blockquote>
 <h3 id="添加当前用户到docker组并重启docker服务">添加当前用户到docker组并重启docker服务</h3>
-<pre><code class="language-bash">sudo groupadd docker
-sudo gpasswd -a ${USER} docker
-</code></pre>
-<pre><code class="language-bash">sudo service docker restart
-</code></pre>
-<blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo groupadd docker
+</span></span><span style="display:flex;"><span>sudo gpasswd -a <span style="color:#e6db74">${</span>USER<span style="color:#e6db74">}</span> docker
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo service docker restart
+</span></span></code></pre></div><blockquote>
 <p>第一次实际操作时我不小心敲成restart docker了</p>
 </blockquote>
 <h3 id="切换当前会话到docker组">切换当前会话到docker组</h3>
-<pre><code class="language-bash">newgrp - docker
-</code></pre>
-<h3 id="安装完成">安装完成</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>newgrp - docker
+</span></span></code></pre></div><h3 id="安装完成">安装完成</h3>
 <p>再次输入docker version，正常显示完整信息：</p>
 <p><img src="/images/Docker%E7%9A%84%E5%AE%89%E8%A3%85/%E6%88%90%E5%8A%9F.jpg" alt="安装完成"></p>
 <h3 id="后续步骤">后续步骤</h3>
 <h4 id="docker国内镜像加速">Docker国内镜像加速</h4>
-<pre><code class="language-bash">sudo vim /etc/docker/daemonjson
-</code></pre>
-<p>添加：</p>
-<pre><code class="language-json">{
-    &quot;registry-mirrors&quot;:[
-        &quot;https://vii0v3ojmirroraliyuncscom&quot;
-    ]
-}
-</code></pre>
-<h4 id="设置开机启动docker">设置开机启动Docker</h4>
-<pre><code class="language-bash">sudo systemctl enable docker
-</code></pre>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo vim /etc/docker/daemonjson
+</span></span></code></pre></div><p>添加：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;registry-mirrors&#34;</span>:[
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;https://vii0v3ojmirroraliyuncscom&#34;</span>
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="设置开机启动docker">设置开机启动Docker</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable docker
+</span></span></code></pre></div>
     </div>
     <div class="article-footer">
-<blockquote class="mt-2x">
-  <ul class="post-copyright list-unstyled">
-    <li class="post-copyright-link hidden-xs">
-      <strong>本文链接: </strong>
-      <a href="https://littlelion2022.github.io/2022/07/docker%E7%9A%84%E5%AE%89%E8%A3%85/" title="Docker的安装" target="_blank" rel="external">https://littlelion2022.github.io/2022/07/docker%E7%9A%84%E5%AE%89%E8%A3%85/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>License: </strong>
-        <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
-    </li>
-  </ul>
-</blockquote>
-
-<div class="panel panel-default panel-badger">
-  <div class="panel-body">
-    <figure class="media">
-      <div class="media-left">
-        <a href="https://github.com/littlelion2022" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="https://littlelion2022.github.io/avatar.png" class="img-rounded w-full" alt="">
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/littlelion2022" target="_blank"><span class="text-dark">LittleLion2022</span><small class="ml-1x">author title</small></a></h3>
-        <div>Good Good Study, Day Day Up~</div>
-      </div>
-    </figure>
-  </div>
-</div>
 
     </div>
   </article>
@@ -438,7 +392,8 @@ sudo gpasswd -a ${USER} docker
     &copy;2021  -
     2022
     <div class="publishby">
-        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+        基于静态博客框架 <a href="https://github.com/gohugoio/hugo">Hugo</a>  | 主题<a href="https://github.com/xiaoheiAh/hugo-theme-pure"> pure </a>
+        
     </div>
     
   </div>
@@ -459,11 +414,7 @@ sudo gpasswd -a ${USER} docker
 <script>
     window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 </script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/go.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/bash.min.js" defer></script><script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
         classPrefix: ''     
